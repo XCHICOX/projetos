@@ -1,0 +1,30 @@
+[
+    {
+        "nome": "manoel",
+        "rg": "12345678",
+        "endereco": "juazeiro 44",
+        "telefone": "83-996287111",
+        "whatsapp": "83996287111"
+    },
+    {
+        "nome": "felipe",
+        "rg": "12345678",
+        "endereco": "sao jose",
+        "telefone": "8956854756",
+        "whatsapp": "8899656574"
+    },
+    {
+        "nome": "MANOEL",
+        "rg": "12345685",
+        "endereco": "TESTE 44",
+        "telefone": "7412589632",
+        "whatsapp": "7412589632"
+    },
+    {
+        "nome": "manoel",
+        "rg": "12345678",
+        "endereco": "juazeiro 44",
+        "telefone": "83-996287111",
+        "whatsapp": "83996287111"
+    }
+]

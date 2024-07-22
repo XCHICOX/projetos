@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de Manutenções</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Cadastro de Manutenções</h1>
+    <form method="POST">
+        <label for="data">Data:</label>
+        <input type="date" id="data" name="data" required>
+        
+        <label for="placa">Placa:</label>
+        <input type="text" id="placa" name="placa" required>
+        
+        <label for="informacoes">Informações:</label>
+        <textarea id="informacoes" name="informacoes" required></textarea>
+        
+        <label for="usuario">Usuário:</label>
+        <input type="text" id="usuario" name="usuario" required>
+        
+        <label for="valor">Valor:</label>
+        <input type="number" id="valor" name="valor" step="0.01" required>
+        
+        <button type="submit" name="add">Adicionar Manutenção</button>
+    </form>
+    
+    <h2>Manutenções Cadastradas</h2>
+    <table>
+        <tr>
+            <th>Data</th>
+            <th>Placa</th>
+            <th>Informações</th>
+            <th>Usuário</th>
+            <th>Valor</th>
+            <th>Ações</th>
+        </tr>
+        {% for index, manutencao in enumerate(manutencoes) %}
+        <tr>
+            <form method="POST">
+                <td><input type="date" name="data" value="{{ manutencao.data }}"></td>
+                <td><input type="text" name="placa" value="{{ manutencao.placa }}"></td>
+                <td><textarea name="informacoes">{{ manutencao.informacoes }}</textarea></td>
+                <td><input type="text" name="usuario" value="{{ manutencao.usuario }}"></td>
+                <td><input type="number" name="valor" step="0.01" value="{{ manutencao.valor }}"></td>
+                <td>
+                    <button type="submit" name="edit" value="{{ index }}">Editar</button>
+                    <button type="submit" name="delete" value="{{ index }}">Excluir</button>
+                </td>
+            </form>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

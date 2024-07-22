@@ -1,0 +1,49 @@
+[
+    {
+        "placa": "RNB-4C04",
+        "modelo": "T-CROSS",
+        "ano": "2021"
+    },
+    {
+        "marca": "RENAULT",
+        "modelo": "KWID",
+        "ano": "2024",
+        "placa": "QSA-5503"
+    },
+    {
+        "marca": "FIAT",
+        "modelo": "SIENA",
+        "ano": "2014",
+        "placa": "PGR-5112"
+    },
+    {
+        "placa": "QXA-1F94",
+        "modelo": "PRISMA JOY",
+        "ano": "2020",
+        "cliente": "N/A"
+    },
+    {
+        "marca": "FIAT",
+        "modelo": "CRONOS",
+        "ano": "2020",
+        "placa": "QSH-9F34"
+    },
+    {
+        "placa": "CWO-5191",
+        "modelo": "COROLLA",
+        "ano": "1996",
+        "cliente": "Francisco"
+    },
+    {
+        "placa": "SLC-3C98",
+        "modelo": "VIRTUS TSI 200",
+        "ano": "2024",
+        "usuario_cadastro": "admin"
+    },
+    {
+        "placa": "AAA-0023",
+        "modelo": "CORSA",
+        "ano": "1998",
+        "usuario_cadastro": "admin"
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "data": "02/07/2024",
+        "placa": "SLC-3C98",
+        "informacoes": "teste 3",
+        "mecanico": "moises",
+        "valor": "150"
+    },
+    {
+        "data": "01/07/2024",
+        "placa": "QSA-5503",
+        "informacoes": "teste 2",
+        "mecanico": "tico",
+        "valor": "250"
+    },
+    {
+        "data": "30/06/2024",
+        "placa": "SLC-3C98",
+        "informacoes": "teste 1",
+        "mecanico": "moises",
+        "valor": "850"
+    },
+    {
+        "data": "02/07/2024",
+        "placa": "SLC-3C98",
+        "informacoes": "pastilha",
+        "mecanico": "moises",
+        "valor": "250"
+    }
+]
